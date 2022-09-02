@@ -1,7 +1,7 @@
 # Task-manager
 ## Стек: 
-- React, TS, Redux toolkit, SASS
+- Webpack, React, TS, Redux toolkit, SASS
 ## Добавить:
-- Webpack, jest
+- Jest
 ## Запуск:
 yarn && yarn start

@@ -11,7 +11,7 @@ import Loading from "./Loading";
 import { selectItems } from "../redux/selectors";
 import { AppDispatch } from "../redux/store";
 
-const Result = () => {
+const Result: React.FC = () => {
   const { items, loading } = useSelector(selectItems);
   const dispatch = useDispatch<AppDispatch>();
 
@@ -52,7 +52,6 @@ const Result = () => {
                 <input
                   type="checkbox"
                   value={value.id}
-                  //
                   checked={value.done ? true : false}
                   onChange={onChangeDone(value.text, value.done)}
                 />

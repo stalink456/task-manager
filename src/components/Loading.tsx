@@ -1,7 +1,7 @@
 import React from "react";
 import spinner from "../assets/spinner.gif";
 
-const Loading = () => {
+const Loading: React.FC = () => {
   return <img className="spinner" src={spinner} alt="just spinner" />;
 };
 

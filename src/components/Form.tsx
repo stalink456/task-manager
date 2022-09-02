@@ -7,7 +7,7 @@ import { formAnimation } from "./Animation";
 import { selectText } from "../redux/selectors";
 import { AppDispatch } from "../redux/store";
 
-const Form = () => {
+const Form: React.FC = () => {
   const text = useSelector(selectText);
   const dispatch = useDispatch<AppDispatch>();
 
