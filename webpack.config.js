@@ -3,8 +3,6 @@ const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const HTMLWebpackPlugin = require("html-webpack-plugin");
 const Dotenv = require("dotenv-webpack");
 
-console.log(process.env.REACT_APP_URL_DB);
-
 module.exports = {
   mode: "development",
   entry: ["@babel/polyfill", "./src/index.tsx"],
