@@ -1,14 +1,14 @@
 import React from "react";
 import Header from "./components/Header";
 import Form from "./components/Form";
-import Result from "./components/Result";
+import Results from "./components/Results";
 
 function App() {
   return (
     <div>
       <Header />
       <Form />
-      <Result />
+      <Results />
     </div>
   );
 }
