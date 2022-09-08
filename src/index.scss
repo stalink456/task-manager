@@ -61,10 +61,10 @@ body {
     font-size: 16px;
     padding: 0px 0px 0px 10px;
     border: none;
-  }
 
-  input:focus {
-    outline: none;
+    &:focus {
+      outline: none;
+    }
   }
 
   button {
@@ -78,22 +78,14 @@ body {
     height: 40px;
     cursor: pointer;
     transition: all 0.15s ease-in-out;
-  }
 
-  button:hover {
-    transform: scale(1.1);
-  }
+    &:hover {
+      transform: scale(1.1);
+    }
 
-  button:active {
-    background-color: purple;
-    color: #fff;
-  }
-
-  @media (max-width: 380px) {
-    padding: 20px 10px;
-
-    button {
-      margin: -9px -11px -9px -25px;
+    &:active {
+      background-color: purple;
+      color: #fff;
     }
   }
 }
@@ -138,10 +130,10 @@ body {
       background: none;
       border: none;
       transition: all 0.15s ease-in-out;
-    }
 
-    .close:hover {
-      transform: scale(1.5);
+      &:hover {
+        transform: scale(1.5);
+      }
     }
   }
 }
@@ -155,4 +147,40 @@ body {
   width: 100px;
   margin: 20px auto;
   display: block;
+}
+
+@media (max-width: 380px) {
+  .header {
+    font-weight: 400;
+  }
+
+  .form {
+    padding: 20px 10px;
+
+    input {
+      font-size: 14px;
+      padding: 0px;
+    }
+
+    button {
+      margin: -9px -11px -9px -25px;
+      padding: 0px 0px;
+    }
+
+    h2 {
+      font-size: 20px;
+    }
+  }
+
+  .result {
+    del {
+      font-size: 16px;
+    }
+    
+    li {
+      h1 {
+        font-size: 16px;
+      }
+    }
+  }
 }
