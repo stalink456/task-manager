@@ -20,7 +20,7 @@ module.exports = {
   ],
   devServer: {
     watchFiles: ["./public/*"],
-    port: 3001,
+    port: 3005,
     open: true,
     hot: true,
   },
